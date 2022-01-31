@@ -24,29 +24,31 @@
 
 .content {
   display: flex;
-  margin-left: 1rem;
+
   padding: 1rem;
   flex-direction: column;
 }
 .card-content {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 0 1rem 1rem;
+  margin: 0 0 1rem 2rem;
 }
 
-.tariff {
-}
 .price {
+  margin-left: 0.8rem;
   display: flex;
   margin-top: 0.3rem;
   min-width: 100%;
-  justify-content: space-around;
+  justify-content: center;
 }
 .price-item {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-weight: 500;
+
+  margin-right: 1rem;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .tariff h4 {
@@ -59,7 +61,7 @@
 .title {
   flex: 1 1 100%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
 .card-item {
@@ -79,12 +81,8 @@
   font-size: 1rem;
 }
 
-h2 {
-  font-size: 1rem;
-}
-
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 body .container-card .card .box .content a {

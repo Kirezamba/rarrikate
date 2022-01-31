@@ -21,12 +21,6 @@
   font-size: 2.1rem;
 }
 
-.header__hello {
-  grid-area: main;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
 .overlay {
   position: absolute;
   left: 0;
@@ -39,14 +33,15 @@
 .hello__block {
   display: flex;
   position: relative;
-  min-width: 100%;
-  min-height: 1000px;
+  min-width: 100vw;
+  min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 1rem;
   padding: 0 0 1.5rem 0;
   background-image: url("../../assets/heroimage-light.JPG");
   background-size: cover;
+  background-position: 50%;
 }
 
 .text__p {
