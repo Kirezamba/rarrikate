@@ -1,0 +1,60 @@
+.footer {
+  min-width: 100%;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.inst {
+  width: 3rem;
+  margin-right: 1rem;
+}
+.telegram {
+  width: 3rem;
+  margin-right: 1rem;
+}
+.whatsapp {
+  width: 3rem;
+}
+.footer-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  flex: 1 1 100%;
+}
+
+.tg-chat {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 1.5rem;
+}
+
+.tg-btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  padding: 5px;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+  background: rgb(219, 152, 250);
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+}
+
+.tg-btn a:hover {
+  box-shadow: 0 10px 20px rgb(219, 152, 250);
+  background: rgb(255, 255, 255);
+  color: #000;
+}

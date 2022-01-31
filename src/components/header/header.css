@@ -1,0 +1,97 @@
+.header {
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
+  z-index: 4;
+  font-weight: 500;
+  max-width: 2rem;
+}
+
+.header__logo {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.header__logo::before {
+  content: "R";
+  font-family: "Stalemate", cursive;
+  color: #fff;
+  font-size: 2.1rem;
+}
+
+.header__hello {
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.hello__block {
+  display: flex;
+  position: relative;
+  min-width: 100%;
+  min-height: 1000px;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 0 0 1.5rem 0;
+  background-image: url("../../assets/heroimage-light.JPG");
+  background-size: cover;
+}
+
+.text__p {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.6rem;
+  justify-content: center;
+  align-items: center;
+}
+.text__p p {
+  text-align: center;
+  line-height: 1.5rem;
+  z-index: 4;
+}
+.welcome-text {
+  position: relative;
+  z-index: 4;
+  width: 80%;
+  text-align: center;
+}
+.btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  padding: 8px 20px;
+  background: rgb(219, 152, 250);
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+  z-index: 4;
+}
+.btn a:hover {
+  box-shadow: 0 10px 20px rgb(219, 152, 250);
+  background: rgb(255, 255, 255);
+  color: #000;
+  z-index: 4;
+}
