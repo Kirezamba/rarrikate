@@ -8,7 +8,7 @@ export default function Footer() {
     <>
       <footer className="footer">
         <div className="tg-chat">
-          <p>Мой телеграм канал с полезностями:</p>
+          <p>Мой телеграм-канал с полезностями:</p>
           <div className="tg-btn">
             <a href="https://t.me/deutscheposts">Присоединиться</a>
           </div>
